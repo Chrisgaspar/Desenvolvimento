@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#titulo {
+    font-family: sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #EB7101;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000;
+    justify-content: center;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    
+
+}
+
+input,
+select,
+textarea {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000;
+    border-radius: 5px;
+
+}
+
+.grupo:before,
+.grupo:after {
+    display: table;
+
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #000;
+    display: block;
+    
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+passW {
+    border: 10;
+    display: flex
+}
+
+
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: none;
+    box-shadow: 2px 2px 2px #000;
+    display: block;
+    background-color: #EB7101;
+
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: #969696;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #1F21EA;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-left: 36%;
+}
+
+.botao:hover {
+    background: #969696;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
+
+.botao,
+select {
+    cursor: pointer;
+
+}
+
+
+#check {
+    display: flex;
+
+}
+

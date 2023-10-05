@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #EB7101;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 24px;
+    background-color: #EB7101;
+    color: #FFFFFF;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    text-shadow: 4px 4px 8px #000;
+    font-weight: 400;
+    font-stretch: condensed;
+
+}
+
+.grupo {
+    color:#000;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}

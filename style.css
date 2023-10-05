@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100;
+    background-color: #EB7101;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: rox;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.cabecalho-logo {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-family: 'Jolly Lodger', cursive;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 400;
+}
+
+.cabecalho-item4 {
+    color: #FFFFFF;
+
+}
+
+.conteudo {
+    border-top: 0.4px solid #FFFFFF;
+    margin-bottom: 48px;
+
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 175px;
+    padding-left: 150px;
+    padding-right: 120px;
+    text-align: center;
+
+
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    font-family: 'Jolly Lodger', cursive;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-secundario {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    font-family: 'Jolly Lodger', cursive;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 400;
+    align-items: center;
+    border-top: 0.4px solid #FFFFFF;
+    margin-bottom: 48px;
+
+}
+
+.rodape {
+    display: flex;
+    border-top: 0.4px solid #FFFFFF;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo-imagem {
+    height: 400px;
+    width: 720px;
+}
+
+.botao-download {
+    background-image: url("imagens\\steam-logo-1.svg");
+    height: 50px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-color: #fff;
+
+
+
+}
+
+.slider {
+    width: 800px;
+    height: 400px;
+    margin: 10 auto;
+    overflow: hidden;
+    margin-top: 50px;
+
+
+
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 500px;
+
+}
+
+.manual-navigation {
+    display: flex;
+    position: absolute;
+    width: 800px;
+    margin-top: -140px;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #FFFFFF;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -25%;
+}
+
+#radio3:checked~ .first {
+    margin-left: -50%;
+
+}
+
+#radio4:checked~.first {
+    margin-left: -75%;
+}
+
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background-color: #fff;
+}
